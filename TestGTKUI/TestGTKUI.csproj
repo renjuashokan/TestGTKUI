@@ -11,7 +11,7 @@
   </ItemGroup>
 
 	<ItemGroup>
-		<EmbeddedResource Include="test.glade" />
+		<EmbeddedResource Include="gladefiles/test.glade" />
 		<EmbeddedResource Include="cssfiles/main.css" />
 	</ItemGroup>
 

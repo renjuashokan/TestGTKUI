@@ -10,7 +10,7 @@ namespace TestGTKUI
         private Builder builder;
         public static testWindow Create()
         {
-            Builder _builder = new Builder(null, "TestGTKUI.test.glade", null);
+            Builder _builder = new Builder(null, "TestGTKUI.gladefiles.test.glade", null);
             return new testWindow(_builder, _builder.GetObject("testWindow").Handle);
         }
         protected testWindow(Builder _builder, IntPtr handle) : base(handle)
