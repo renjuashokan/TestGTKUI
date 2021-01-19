@@ -1,0 +1,12 @@
+GtkButton,
+.button_style {
+    color: black;
+    font-weight: bold;
+}
+
+GtkLabel,
+.labelStyle {
+    color: forestgreen;
+    font-weight: bold;
+    font-size: 15px;
+}
