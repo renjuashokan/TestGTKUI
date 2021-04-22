@@ -7,8 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="GtkSharp" Version="3.22.25.128" />
+    <PackageReference Include="GtkSharp" Version="3.24.24.34" />
   </ItemGroup>
+	
+	<ItemGroup>
+		<Content Include="cssfiles/main.css">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	
+	</ItemGroup>
 
 	<ItemGroup>
 		<EmbeddedResource Include="gladefiles/test.glade" />
